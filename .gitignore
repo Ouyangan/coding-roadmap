@@ -1,0 +1,14 @@
+out/
+*.class
+*.log
+*.jar
+hs_err_pid*
+.settings/
+
+/.idea/*
+
+*/build/*
+*/.gradle/*
+*/gradle/*
+
+
