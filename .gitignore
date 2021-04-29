@@ -10,5 +10,9 @@ hs_err_pid*
 */build/*
 */.gradle/*
 */gradle/*
+.gradle
+gradlew
+gradlew.bat
+gradle/*
 
 
