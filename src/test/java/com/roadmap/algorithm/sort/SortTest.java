@@ -9,6 +9,16 @@ class SortTest {
         return arr;
     }
 
+
+    private void printArr(int[] arr) {
+        for (int i : arr) {
+            System.out.print(i + ",");
+        }
+        System.out.println();
+
+    }
+
+
     @Test
     void bubbleSort() {
         int[] arr = createArr();
@@ -18,11 +28,12 @@ class SortTest {
 
     }
 
-    private void printArr(int[] arr) {
-        for (int i : arr) {
-            System.out.print(i + ",");
-        }
-        System.out.println();
 
+    @Test
+    void selectionSort() {
+        int[] arr = createArr();
+        Sort sort = new Sort();
+        int[] ints = sort.selectionSort(arr);
+        printArr(ints);
     }
 }
