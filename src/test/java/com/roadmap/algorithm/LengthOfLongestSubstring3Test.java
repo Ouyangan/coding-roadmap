@@ -1,8 +1,7 @@
 package com.roadmap.algorithm;
 
+import com.roadmap.algorithm.Leetcode.LengthOfLongestSubstring3;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class LengthOfLongestSubstring3Test {
 

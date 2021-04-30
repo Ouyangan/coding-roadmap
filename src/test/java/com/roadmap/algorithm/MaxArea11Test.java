@@ -1,5 +1,6 @@
 package com.roadmap.algorithm;
 
+import com.roadmap.algorithm.Leetcode.MaxArea11;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

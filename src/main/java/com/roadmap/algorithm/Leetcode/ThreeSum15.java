@@ -1,4 +1,4 @@
-package com.roadmap.algorithm;
+package com.roadmap.algorithm.Leetcode;
 
 import java.util.*;
 

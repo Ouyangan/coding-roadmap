@@ -1,8 +1,7 @@
 package com.roadmap.algorithm;
 
+import com.roadmap.algorithm.Leetcode.LongestPalindrome5;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class LongestPalindrome5Test {
 
