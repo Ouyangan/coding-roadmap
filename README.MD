@@ -25,16 +25,16 @@
 
 ### [10大排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
 
-- [ ] [冒泡](article/排序算法.md)
-- [ ] [选择]()
-- [ ] [插入]()
-- [ ] [希尔]()
-- [ ] [归并]()
-- [ ] [快速]()
-- [ ] [堆]()
-- [ ] [计数]()
-- [ ] [桶排序]()
-- [ ] [基数]()
+- [x] [冒泡](article/排序算法.md)
+- [x] [选择](article/排序算法.md)
+- [ ] [插入](article/排序算法.md)
+- [ ] [希尔](article/排序算法.md)
+- [ ] [归并](article/排序算法.md)
+- [ ] [快速](article/排序算法.md)
+- [ ] [堆](article/排序算法.md)
+- [ ] [计数](article/排序算法.md)
+- [ ] [桶排序](article/排序算法.md)
+- [ ] [基数](article/排序算法.md)
 
 ### 数据结构
 
