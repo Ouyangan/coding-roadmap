@@ -15,7 +15,6 @@
 - [LeetCode-11-盛最多水的容器(双指针)](src/main/java/com/roadmap/algorithm/MaxArea11.java)
 - [LeetCode-15-三数之和(双指针)](src/main/java/com/roadmap/algorithm/ThreeSum15.java)
 - [LeetCode-17-电话号码组合(回溯)](src/main/java/com/roadmap/algorithm/LetterCombinations17.java)
-- [LeetCode-17-电话号码组合(回溯)](src/main/java/com/roadmap/algorithm/LetterCombinations17.java)
 - [LeetCode-19-删除链表的倒数第 N 个结点(双指针)](src/main/java/com/roadmap/algorithm/RemoveNthFromEnd19.java)
 - [LeetCode-20-有效的括号(栈)](src/main/java/com/roadmap/algorithm/IsValid20.java)
 - [LeetCode-21-合并两个有序链表(链表)](src/main/java/com/roadmap/algorithm/MergeTwoLists21.java)
