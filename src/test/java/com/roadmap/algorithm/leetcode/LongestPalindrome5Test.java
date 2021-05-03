@@ -1,6 +1,5 @@
-package com.roadmap.algorithm.Leetcode;
+package com.roadmap.algorithm.leetcode;
 
-import com.roadmap.algorithm.Leetcode.LongestPalindrome5;
 import org.junit.jupiter.api.Test;
 
 class LongestPalindrome5Test {

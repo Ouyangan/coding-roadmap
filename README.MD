@@ -8,7 +8,7 @@
 
 ### [LeetCode Top 100](https://leetcode-cn.com/problem-list/2cktkvj/)
 
-1. [LeetCode-1-两数之和](/src/main/java/com/roadmap/algorithm/Leetcode/TwoSum1.java)
+1. [LeetCode-1-两数之和](/src/main/java/com/roadmap/algorithm/leetcode/TwoSum1.java)
 2. [LeetCode-2-两数相加](/src/main/java/com/roadmap/algorithm/leetcode/AddTwoNumbers2.java)
 3. [LeetCode-3-无重复字符最长子串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/LengthOfLongestSubstring3.java)
 4. [LeetCode-5-最长回文串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/LongestPalindrome5.java)

@@ -1,6 +1,5 @@
-package com.roadmap.algorithm.Leetcode;
+package com.roadmap.algorithm.leetcode;
 
-import com.roadmap.algorithm.Leetcode.TwoSum1;
 import org.junit.jupiter.api.Test;
 
 class TwoSum1Test {

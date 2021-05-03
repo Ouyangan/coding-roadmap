@@ -1,4 +1,4 @@
-package com.roadmap.algorithm.Leetcode;
+package com.roadmap.algorithm.leetcode;
 
 public class ListNode {
     int val;

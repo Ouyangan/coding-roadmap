@@ -1,4 +1,4 @@
-package com.roadmap.algorithm.Leetcode;
+package com.roadmap.algorithm.leetcode;
 
 import org.junit.jupiter.api.Test;
 
