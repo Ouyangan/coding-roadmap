@@ -1,4 +1,4 @@
-package com.roadmap.algorithm;
+package com.roadmap.algorithm.Leetcode;
 
 import com.roadmap.algorithm.Leetcode.LengthOfLongestSubstring3;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.roadmap.algorithm;
+package com.roadmap.algorithm.Leetcode;
 
 import com.roadmap.algorithm.Leetcode.ThreeSum15;
 import org.junit.jupiter.api.Test;

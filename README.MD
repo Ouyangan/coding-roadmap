@@ -20,6 +20,7 @@
 10. [LeetCode-21-合并两个有序链表(链表)](src/main/java/com/roadmap/algorithm/leetcode/MergeTwoLists21.java)
 11. [LeetCode-22-括号生成(回溯)](src/main/java/com/roadmap/algorithm/leetcode/GenerateParenthesis22.java)
 12. [LeetCode-23-合并K个升序链表(小顶堆)](src/main/java/com/roadmap/algorithm/leetcode/MergeKLists23.java)
+12. [LeetCode-31-下一个排列(双指针)](src/main/java/com/roadmap/algorithm/leetcode/NextPermutation31.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 

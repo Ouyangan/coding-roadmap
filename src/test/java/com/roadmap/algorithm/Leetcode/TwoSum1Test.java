@@ -1,9 +1,9 @@
-package com.roadmap.algorithm;
+package com.roadmap.algorithm.Leetcode;
 
 import com.roadmap.algorithm.Leetcode.TwoSum1;
 import org.junit.jupiter.api.Test;
 
-class AlgorithmTest {
+class TwoSum1Test {
     @Test
     public void twoSumTest() {
         TwoSum1 twoSum1 = new TwoSum1();
