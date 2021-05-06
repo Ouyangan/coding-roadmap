@@ -23,7 +23,8 @@
 12. [LeetCode-31-下一个排列(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/NextPermutation31.java)
 12. [LeetCode-33-搜索旋转排序数组(二分法)](/src/main/java/com/roadmap/algorithm/leetcode/Search33.java)
 12. [LeetCode-34-在排序数组中查找元素的第一个和最后一个位置(二分法)](/src/main/java/com/roadmap/algorithm/leetcode/SearchRange34.java)
-12. [LeetCode-39组合总和(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/CombinationSum39.java)
+12. [LeetCode-39-组合总和(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/CombinationSum39.java)
+12. [LeetCode-46-全排列(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Permute46.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
