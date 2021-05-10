@@ -8,7 +8,7 @@
 
 ### [LeetCode Top 100](https://leetcode-cn.com/problem-list/2cktkvj/)
 
-1. [LeetCode-1-两数之和](/src/main/java/com/roadmap/algorithm/leetcode/TwoSum1.java)
+1. [LeetCode-1-两数之和(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/TwoSum1.java)
 2. [LeetCode-2-两数相加](/src/main/java/com/roadmap/algorithm/leetcode/AddTwoNumbers2.java)
 3. [LeetCode-3-无重复字符最长子串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/LengthOfLongestSubstring3.java)
 4. [LeetCode-5-最长回文串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/LongestPalindrome5.java)
@@ -25,6 +25,7 @@
 12. [LeetCode-34-在排序数组中查找元素的第一个和最后一个位置(二分法)](/src/main/java/com/roadmap/algorithm/leetcode/SearchRange34.java)
 12. [LeetCode-39-组合总和(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/CombinationSum39.java)
 12. [LeetCode-46-全排列(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Permute46.java)
+12. [LeetCode-48-旋转图像](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode48.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
@@ -50,15 +51,6 @@
 1. [红黑树]()
 1. [跳表]()
        
-## Linux
+## 职业发展
 
-## 从零实现中间件
-
-### Dubbo
-
-### Seata
-
-### Redis
-
-## 带着问题出发
-
+1. [6年代码生涯总结](article/6年代码生涯总结.md)
