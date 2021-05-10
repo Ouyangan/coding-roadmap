@@ -27,6 +27,8 @@
 12. [LeetCode-46-全排列(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Permute46.java)
 12. [LeetCode-48-旋转图像](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode48.java)
 12. [LeetCode-49-字母异位词分组(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode49.java)
+12. [LeetCode-55-跳跃游戏(贪心)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode55.java)
+12. [LeetCode-56-合并区间(排序)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode56.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
