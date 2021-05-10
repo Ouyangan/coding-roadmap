@@ -26,6 +26,7 @@
 12. [LeetCode-39-组合总和(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/CombinationSum39.java)
 12. [LeetCode-46-全排列(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Permute46.java)
 12. [LeetCode-48-旋转图像](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode48.java)
+12. [LeetCode-49-字母异位词分组(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode49.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
