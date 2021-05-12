@@ -30,6 +30,7 @@
 12. [LeetCode-55-跳跃游戏(贪心)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode55.java)
 12. [LeetCode-56-合并区间(排序)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode56.java)
 12. [LeetCode-62-不同路径(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode62.java)
+12. [LeetCode-64-最小路径和(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode64.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
