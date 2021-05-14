@@ -35,6 +35,7 @@
 12. [LeetCode-72-编辑距离(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode72.java)
 12. [LeetCode-75-颜色分类(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode75.java)
 12. [LeetCode-76-最小覆盖子串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode76.java)
+12. [LeetCode-78-子集(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode78.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
