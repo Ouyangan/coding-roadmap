@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 import java.util.function.Consumer;
 
-class ThreeSum15Test {
+class Leetcode15Test {
 
     @Test
     void threeSum() {
@@ -13,8 +13,8 @@ class ThreeSum15Test {
 
     @Test
     void threeSum2() {
-        ThreeSum15 threeSum15 = new ThreeSum15();
-        List<List<Integer>> lists = threeSum15.threeSum2(new int[]{-2,-1,0,1,2},3);
+        Leetcode15 leetcode15 = new Leetcode15();
+        List<List<Integer>> lists = leetcode15.threeSum2(new int[]{-2,-1,0,1,2},3);
         lists.forEach(new Consumer<List<Integer>>() {
             @Override
             public void accept(List<Integer> integers) {

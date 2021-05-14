@@ -3,7 +3,7 @@ package com.roadmap.algorithm.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenerateParenthesis22 {
+public class Leetcode22 {
     public List<String> generateParenthesis(int n) {
         //回溯
         List<String> result = new ArrayList<>();

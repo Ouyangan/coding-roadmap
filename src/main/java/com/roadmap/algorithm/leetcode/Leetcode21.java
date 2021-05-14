@@ -36,7 +36,7 @@ package com.roadmap.algorithm.leetcode;
 //
 // Related Topics 递归 链表
 // 👍 1687 👎 0
-public class MergeTwoLists21 {
+public class Leetcode21 {
     //递归
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         return merge(l1, l2);

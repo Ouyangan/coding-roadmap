@@ -2,7 +2,7 @@ package com.roadmap.algorithm.leetcode;
 
 import java.util.PriorityQueue;
 
-public class MergeKLists23 {
+public class Leetcode23 {
 
     //链表有序
     //定义小顶堆,存储所有链表头节点

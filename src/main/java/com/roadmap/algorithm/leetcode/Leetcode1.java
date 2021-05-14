@@ -35,7 +35,7 @@ import java.util.Map;
  * -109 <= target <= 109
  * 只会存在一个有效答案
  */
-public class TwoSum1 {
+public class Leetcode1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {

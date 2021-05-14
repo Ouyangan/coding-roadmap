@@ -2,11 +2,11 @@ package com.roadmap.algorithm.leetcode;
 
 import org.junit.jupiter.api.Test;
 
-class LengthOfLongestSubstring3Test {
+class Leetcode3Test {
 
     @Test
     void lengthOfLongestSubstring() {
-        LengthOfLongestSubstring3 o = new LengthOfLongestSubstring3();
+        Leetcode3 o = new Leetcode3();
         int aabbccaa = o.lengthOfLongestSubstring("abcbabc");
     }
 }

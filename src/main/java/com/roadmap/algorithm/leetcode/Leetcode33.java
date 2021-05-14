@@ -46,7 +46,7 @@ package com.roadmap.algorithm.leetcode;
 // 进阶：你可以设计一个时间复杂度为 O(log n) 的解决方案吗？
 // Related Topics 数组 二分查找
 // 👍 1349 👎 0
-public class Search33 {
+public class Leetcode33 {
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return -1;

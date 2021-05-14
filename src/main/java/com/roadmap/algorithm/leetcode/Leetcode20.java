@@ -56,7 +56,7 @@ import java.util.Stack;
 //
 // Related Topics 栈 字符串
 // 👍 2374 👎 0
-public class IsValid20 {
+public class Leetcode20 {
     public boolean isValid(String s) {
         //( [ { 入栈 ) ] }
         //) ] } 出栈

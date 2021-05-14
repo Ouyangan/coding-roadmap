@@ -43,7 +43,7 @@ package com.roadmap.algorithm.leetcode;
 //
 // Related Topics 字符串 动态规划
 // 👍 3580 👎 0
-public class LongestPalindrome5 {
+public class Leetcode5 {
     public String longestPalindrome(String s) {
         if (s.length() == 1) {
             return s;

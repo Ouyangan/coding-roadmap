@@ -51,7 +51,7 @@ package com.roadmap.algorithm.leetcode;//给你一个链表，删除链表的倒
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-public class RemoveNthFromEnd19 {
+public class Leetcode19 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode pre = head;

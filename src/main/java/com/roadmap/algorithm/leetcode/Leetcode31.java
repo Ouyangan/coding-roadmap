@@ -46,7 +46,7 @@ package com.roadmap.algorithm.leetcode;
 //
 // Related Topics 数组
 // 👍 1085 👎 0
-public class NextPermutation31 {
+public class Leetcode31 {
     public void nextPermutation(int[] nums) {
         // 思路是反向查找数组,找到左边最小的数和右边最大的数,最大的数尽可能小
         // 4 5 2 6 3 1 -> 2 3

@@ -1,6 +1,6 @@
 package com.roadmap.algorithm.leetcode;
 
-public class SearchRange34 {
+public class Leetcode34 {
 
     public int[] searchRange(int[] nums, int target) {
         if (nums == null || nums.length == 0) {

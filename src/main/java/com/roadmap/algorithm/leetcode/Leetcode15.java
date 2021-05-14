@@ -40,7 +40,7 @@ import java.util.*;
 //
 // Related Topics 数组 双指针
 // 👍 3286 👎 0
-public class ThreeSum15 {
+public class Leetcode15 {
     private final Set<List<Integer>> set = new HashSet<>();
 
     //双指针

@@ -49,7 +49,7 @@ import java.util.Map;
 //
 // Related Topics 哈希表 双指针 字符串 Sliding Window
 // 👍 5388 👎 0
-public class LengthOfLongestSubstring3 {
+public class Leetcode3 {
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0) {
             return 0;

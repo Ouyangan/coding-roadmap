@@ -41,7 +41,7 @@ package com.roadmap.algorithm.leetcode;
 //
 // Related Topics 递归 链表 数学
 // 👍 6113 👎 0
-public class AddTwoNumbers2 {
+public class Leetcode2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode node = new ListNode(-1);
         int carry = 0;

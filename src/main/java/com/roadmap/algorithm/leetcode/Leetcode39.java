@@ -46,7 +46,7 @@ import java.util.List;
 //
 // Related Topics 数组 回溯算法
 // 👍 1325 👎 0
-public class CombinationSum39 {
+public class Leetcode39 {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         //回溯
         List<List<Integer>> result = new ArrayList<>();

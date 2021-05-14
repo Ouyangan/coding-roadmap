@@ -44,7 +44,7 @@ import java.util.Map;
 //
 // Related Topics 深度优先搜索 递归 字符串 回溯算法
 // 👍 1284 👎 0
-public class LetterCombinations17 {
+public class Leetcode17 {
     public List<String> letterCombinations(String digits) {
         List<String> result = new ArrayList<>();
         if (digits == null || digits.length() == 0) {

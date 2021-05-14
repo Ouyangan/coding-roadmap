@@ -48,7 +48,7 @@ package com.roadmap.algorithm.leetcode;
 //
 // Related Topics 数组 双指针
 // 👍 2410 👎 0
-public class MaxArea11 {
+public class Leetcode11 {
     public int maxArea(int[] height) {
         int len = height.length;
         if (len < 2) {

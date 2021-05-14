@@ -19,7 +19,7 @@ import java.util.List;
 //]
 // Related Topics 回溯算法
 // 👍 1328 👎 0
-public class Permute46 {
+public class Leetcode46 {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
