@@ -56,7 +56,7 @@ import java.util.Deque;
 //
 // Related Topics 栈 数组 哈希表 动态规划
 // 👍 915 👎 0
-public class leetcode85 {
+public class Leetcode85 {
     public int maximalRectangle(char[][] matrix) {
         //单调栈,求出每一层最大的面积即可
         int row = matrix.length;
