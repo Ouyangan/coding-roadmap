@@ -38,6 +38,7 @@
 12. [LeetCode-78-子集(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode78.java)
 12. [LeetCode-79-单词搜索(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode79.java)
 12. [LeetCode-84-柱状图中最大的矩形(单调栈,双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode84.java)
+12. [LeetCode-84-最大矩形(单调栈)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode85.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 

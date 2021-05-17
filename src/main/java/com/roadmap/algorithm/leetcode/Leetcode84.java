@@ -36,20 +36,15 @@ public class Leetcode84 {
             //如果当前i高度比栈顶元素小,则可以确定栈顶元素的面积
             while (!stack.isEmpty() && temp[i] < temp[stack.peek()]) {
                 int h = temp[stack.pop()];
+                //右边高度可以确定为i-1
+                //左边高度则是栈顶元素(此时栈已出栈一次了)
                 area = Math.max(area, (i - stack.peek() - 1) * h);
-                printStack(stack,heights);
             }
             stack.push(i);
         }
         return area;
     }
 
-    private void printStack(Deque<Integer> stack, int[] heights) {
-        for (Integer integer : stack) {
-            System.out.print(integer+":"+heights[integer] + ",");
-        }
-        System.out.println();
-    }
 
     public int largestRectangleAreaV2(int[] heights) {
         //暴力解法
