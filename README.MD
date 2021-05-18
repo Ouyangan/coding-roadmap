@@ -44,6 +44,7 @@
 12. [LeetCode-96-不同的二叉搜索树(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode96.java)
 12. [LeetCode-98-验证二叉搜索树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode98.java)
 12. [LeetCode-101-对称二叉树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode101.java)
+12. [LeetCode-102-二叉树的层序遍历(队列)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode102.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
