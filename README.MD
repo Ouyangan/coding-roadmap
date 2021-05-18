@@ -47,6 +47,7 @@
 12. [LeetCode-102-二叉树的层序遍历(队列)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode102.java)
 12. [LeetCode-104-二叉树的最大深度(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode104.java)
 12. [LeetCode-105-从前序与中序遍历序列构造二叉树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode105.java)
+12. [LeetCode-114-二叉树展开为链表(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode114.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
