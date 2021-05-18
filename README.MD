@@ -40,6 +40,7 @@
 12. [LeetCode-84-柱状图中最大的矩形(单调栈,双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode84.java)
 12. [LeetCode-85-最大矩形(单调栈)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode85.java)
 12. [LeetCode-94-二叉树中序遍历(栈)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode94.java)
+12. [LeetCode-95-不同的二叉搜索树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode95.java)
 12. [LeetCode-96-不同的二叉搜索树(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode96.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
