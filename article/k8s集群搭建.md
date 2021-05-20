@@ -72,7 +72,7 @@ sudo systemctl restart docker
 ```
    
 ### 安装kubeadm,kubectl,kubelet
-```
+```1
 #修改镜像来源
 vim /etc/apt/sources.list //末尾添加
 # kubeadm及kubernetes组件安装源
@@ -81,6 +81,8 @@ apt update
 apt install kubeadm kubelet kubectl
 systemctl enable kubelet
 ```
+- kubectl自动补全
+> https://kubernetes.io/zh/docs/tasks/tools/included/optional-kubectl-configs-bash-linux/
 
 ### 配置集群
 1. 初始化master
@@ -93,15 +95,20 @@ kubeadm init \
 
 > Your Kubernetes control-plane has initialized successfully!
 To start using your cluster, you need to run the following as a regular user:
+\
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config 
+\
 Alternatively, if you are the root user, you can run:
+\
 export KUBECONFIG=/etc/kubernetes/admin.conf
+\
 You should now deploy a pod network to the cluster.
 Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 https://kubernetes.io/docs/concepts/cluster-administration/addons/
-Then you can join any number of worker nodes by running the following on each as root:
+Then you can join any number of worker nodes by running the following on each as root: 
+\
 kubeadm join 192.168.241.141:6443 --token xtbzom.iu74b3mdi2c4pdyp \
 --discovery-token-ca-cert-hash sha256:b665c620a7b4848f10e0a4422f0c4d47223de74b1648abe6ecde625239582ecd
 
@@ -111,15 +118,12 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 export KUBECONFIG=/etc/kubernetes/admin.conf
-
-
 ```
 
 node节点加入命令
 ```
 kubeadm join 192.168.241.141:6443 --token xtbzom.iu74b3mdi2c4pdyp \
 --discovery-token-ca-cert-hash sha256:b665c620a7b4848f10e0a4422f0c4d47223de74b1648abe6ecde625239582ecd
-
 ```
 
 2. 增加node节点
@@ -163,4 +167,32 @@ kubectl --namespace kube-system logs kube-flannel-ds-mxnzd \
 解决方法:
 > 只能重新初始化集群
 master和node节点分别执行 kubeadm reset
+
+
+#### 部署Dashboard
+1. `kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml`
+2. 查看部署状态`kubectl get pod --all-namespaces`
+```
+NAMESPACE              NAME                                         READY   STATUS    RESTARTS   AGE
+kube-system            coredns-545d6fc579-74t6p                     1/1     Running   0          20h
+kube-system            coredns-545d6fc579-px8pv                     1/1     Running   0          20h
+kube-system            etcd-master1                                 1/1     Running   0          20h
+kube-system            kube-apiserver-master1                       1/1     Running   0          20h
+kube-system            kube-controller-manager-master1              1/1     Running   0          20h
+kube-system            kube-flannel-ds-djkth                        1/1     Running   0          20h
+kube-system            kube-flannel-ds-nvxq2                        1/1     Running   0          20h
+kube-system            kube-flannel-ds-vvwr4                        1/1     Running   0          20h
+kube-system            kube-proxy-5lck4                             1/1     Running   0          20h
+kube-system            kube-proxy-fwc5t                             1/1     Running   0          20h
+kube-system            kube-proxy-gqjg9                             1/1     Running   0          20h
+kube-system            kube-scheduler-master1                       1/1     Running   0          20h
+kubernetes-dashboard   dashboard-metrics-scraper-856586f554-zbt5v   1/1     Running   0          19m
+kubernetes-dashboard   kubernetes-dashboard-78c79f97b4-m294j        1/1     Running   0          19m
+
+```
+3. 暴露代理服务`kubectl proxy --address='0.0.0.0'  --accept-hosts='^*$'`
+4. 获取token`kubectl -n kube-system describe $(kubectl -n kube-system get secret -n kube-system -o name | grep namespace) | grep token`
+5. 访问
+`http://192.168.241.141:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/`
+6. 注意使用VMware部署集群时需要通过*虚拟网络编辑器*将虚拟机端口映射一下
 

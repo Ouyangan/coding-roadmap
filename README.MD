@@ -48,6 +48,10 @@
 12. [LeetCode-104-二叉树的最大深度(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode104.java)
 12. [LeetCode-105-从前序与中序遍历序列构造二叉树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode105.java)
 12. [LeetCode-114-二叉树展开为链表(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode114.java)
+12. [LeetCode-121-买卖股票的最佳时机](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode121.java)
+12. [LeetCode-124-二叉树中的最大路径和(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode124.java)
+12. [LeetCode-128-最长连续序列(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode128.java)
+12. [LeetCode-136-只出现一次的数字](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode136.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
@@ -76,5 +80,6 @@
 ### 中间件
 
 #### K8S
-[k8s基本概念](article/k8s基本概念.md)
-[k8s集群搭建](article/k8s集群搭建.md)
+1. [k8s基本概念](article/k8s基本概念.md)
+2. [k8s集群搭建](article/k8s集群搭建.md)
+3. [k8s资源编排](article/k8s资源编排.md)
