@@ -51,7 +51,8 @@
 12. [LeetCode-121-买卖股票的最佳时机](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode121.java)
 12. [LeetCode-124-二叉树中的最大路径和(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode124.java)
 12. [LeetCode-128-最长连续序列(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode128.java)
-12. [LeetCode-136-只出现一次的数字](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode136.java)
+12. [LeetCode-136-只出现一次的数字(位运算)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode136.java)
+12. [LeetCode-142-环形链表 II(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode142.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
