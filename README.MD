@@ -54,7 +54,8 @@
 12. [LeetCode-136-只出现一次的数字(位运算)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode136.java)
 12. [LeetCode-142-环形链表 II(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode142.java)
 12. [LeetCode-142-环形链表 II(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode142.java)
-12. [LeetCode-152-乘积最大子数组(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode142.java)
+12. [LeetCode-146-LRU 缓存机制](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode146.java)
+12. [LeetCode-152-乘积最大子数组(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode152.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
