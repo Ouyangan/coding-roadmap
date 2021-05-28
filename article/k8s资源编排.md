@@ -63,3 +63,56 @@ status: {}
 
 2. 共享存储 \
    引入数据卷Volumn，进行持久化存储。
+
+#### 配置项
+
+- 镜像拉取策略
+- 重启策略
+- 调度策略
+- 资源限制
+
+### Deployment
+
+1. 什么是Controller
+
+- 确保副本数量
+- 无状态应用部署
+- 有状态应用部署
+
+2. Pod和Controller关系
+
+- controller管理pod
+    - 通过标签建立关联关系
+
+3. Deployment有什么作用?
+
+- 应用场景
+    - 无状态应用部署
+    - 管理pod
+    - 部署,滚动升级,伸缩
+
+- 部署
+    - kubectl apply -f xx.yaml
+
+- 暴露服务
+    - kubectl expose deployment deployment-test --port=80 --type=NodePort --target-port=8002 --name=web -o yaml >
+      web1.yaml
+    - kubectl apply -f web1.yaml
+- 回滚
+    - kubectl rollout -h
+
+- 弹性伸缩
+    - kubectl scale -h
+
+### Service
+
+1. 为什么需要Service
+    - 服务注册
+    - 服务负载均衡
+
+2. Pod和Service关系
+    - Service管理pod的服务发现和负载均衡
+    - 通过标签实现
+    
+3. 单独对外暴露端口(vip)内部负载均衡将流量路由到pod
+

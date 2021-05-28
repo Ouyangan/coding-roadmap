@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-test
+  labels:
+    app: deployment-test
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: deployment-test
+      labels:
+        app: deployment-test
+    spec:
+      containers:
+        - name: deployment-test
+          image: hello-world
+          imagePullPolicy: IfNotPresent
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: deployment-test
