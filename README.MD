@@ -52,10 +52,14 @@
 12. [LeetCode-124-二叉树中的最大路径和(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode124.java)
 12. [LeetCode-128-最长连续序列(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode128.java)
 12. [LeetCode-136-只出现一次的数字(位运算)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode136.java)
-12. [LeetCode-142-环形链表 II(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode142.java)
+12. [LeetCode-141-环形链表(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode141.java)
 12. [LeetCode-142-环形链表 II(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode142.java)
 12. [LeetCode-146-LRU 缓存机制](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode146.java)
 12. [LeetCode-152-乘积最大子数组(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode152.java)
+12. [LeetCode-155-最小栈](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode155.java)
+12. [LeetCode-160-相交链表](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode160.java)
+12. [LeetCode-169-多数元素](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode169.java)
+12. [LeetCode-198-打家劫舍(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode198.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
