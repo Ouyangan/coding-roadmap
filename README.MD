@@ -60,7 +60,11 @@
 12. [LeetCode-160-相交链表](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode160.java)
 12. [LeetCode-169-多数元素](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode169.java)
 12. [LeetCode-198-打家劫舍(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode198.java)
-12. [LeetCode-200-岛屿数量(深度优先)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode198.java)
+12. [LeetCode-200-岛屿数量(深度优先)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode200.java)
+12. [LeetCode-206-反转链表](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode206.java)
+12. [LeetCode-208-实现Trie树](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode208.java)
+12. [LeetCode-215-数组中第K个大元素](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode215.java)
+12. [LeetCode-221-最大正方形](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode221.java)
 
 ### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
 
