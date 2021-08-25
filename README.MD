@@ -1,100 +1,12 @@
-工作多年,很遗憾的是没有留下多少有意义的文字或者代码.
+记录一些平时工作过程写代码的思考过程和心得体会.
 
-好在现在意识到了为时不晚
+### 算法与数据结构
 
-借此这里记录一些平时工作过程写代码的思考过程和心得体会.
+#### 资料收集
+1. [labuldong算法小抄](htt`ps://mp.weixin.qq.com/s/AWsL7G89RtaHyHjRPNJENA?scene=25#wechat_redirect)
 
-## 算法与数据结构
-
-### [LeetCode Top 100](https://leetcode-cn.com/problem-list/2cktkvj/)
-
-1. [LeetCode-1-两数之和(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode1.java)
-2. [LeetCode-2-两数相加](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode2.java)
-3. [LeetCode-3-无重复字符最长子串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode3.java)
-4. [LeetCode-5-最长回文串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode5.java)
-5. [LeetCode-11-盛最多水的容器(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode11.java)
-6. [LeetCode-15-三数之和(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode15.java)
-7. [LeetCode-17-电话号码组合(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode17.java)
-8. [LeetCode-19-删除链表的倒数第 N 个结点(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode19.java)
-9. [LeetCode-20-有效的括号(栈)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode20.java)
-10. [LeetCode-21-合并两个有序链表(链表)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode21.java)
-11. [LeetCode-22-括号生成(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode22.java)
-12. [LeetCode-23-合并K个升序链表(小顶堆)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode23.java)
-12. [LeetCode-31-下一个排列(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode31.java)
-12. [LeetCode-33-搜索旋转排序数组(二分法)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode33.java)
-12. [LeetCode-34-在排序数组中查找元素的第一个和最后一个位置(二分法)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode34.java)
-12. [LeetCode-39-组合总和(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode39.java)
-12. [LeetCode-46-全排列(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode46.java)
-12. [LeetCode-48-旋转图像](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode48.java)
-12. [LeetCode-49-字母异位词分组(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode49.java)
-12. [LeetCode-55-跳跃游戏(贪心)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode55.java)
-12. [LeetCode-56-合并区间(排序)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode56.java)
-12. [LeetCode-62-不同路径(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode62.java)
-12. [LeetCode-64-最小路径和(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode64.java)
-12. [LeetCode-70-爬楼梯(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode70.java)
-12. [LeetCode-72-编辑距离(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode72.java)
-12. [LeetCode-75-颜色分类(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode75.java)
-12. [LeetCode-76-最小覆盖子串(双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode76.java)
-12. [LeetCode-78-子集(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode78.java)
-12. [LeetCode-79-单词搜索(回溯)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode79.java)
-12. [LeetCode-84-柱状图中最大的矩形(单调栈,双指针)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode84.java)
-12. [LeetCode-85-最大矩形(单调栈)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode85.java)
-12. [LeetCode-94-二叉树中序遍历(栈)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode94.java)
-12. [LeetCode-95-不同的二叉搜索树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode95.java)
-12. [LeetCode-96-不同的二叉搜索树(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode96.java)
-12. [LeetCode-98-验证二叉搜索树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode98.java)
-12. [LeetCode-101-对称二叉树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode101.java)
-12. [LeetCode-102-二叉树的层序遍历(队列)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode102.java)
-12. [LeetCode-104-二叉树的最大深度(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode104.java)
-12. [LeetCode-105-从前序与中序遍历序列构造二叉树(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode105.java)
-12. [LeetCode-114-二叉树展开为链表(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode114.java)
-12. [LeetCode-121-买卖股票的最佳时机](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode121.java)
-12. [LeetCode-124-二叉树中的最大路径和(递归)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode124.java)
-12. [LeetCode-128-最长连续序列(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode128.java)
-12. [LeetCode-136-只出现一次的数字(位运算)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode136.java)
-12. [LeetCode-141-环形链表(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode141.java)
-12. [LeetCode-142-环形链表 II(哈希)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode142.java)
-12. [LeetCode-146-LRU 缓存机制](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode146.java)
-12. [LeetCode-152-乘积最大子数组(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode152.java)
-12. [LeetCode-155-最小栈](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode155.java)
-12. [LeetCode-160-相交链表](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode160.java)
-12. [LeetCode-169-多数元素](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode169.java)
-12. [LeetCode-198-打家劫舍(动态规划)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode198.java)
-12. [LeetCode-200-岛屿数量(深度优先)](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode200.java)
-12. [LeetCode-206-反转链表](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode206.java)
-12. [LeetCode-208-实现Trie树](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode208.java)
-12. [LeetCode-215-数组中第K个大元素](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode215.java)
-12. [LeetCode-221-最大正方形](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode221.java)
-12. [LeetCode-226-反转二叉树](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode226.java)
-12. [LeetCode-226-翻转二叉树](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode226.java)
-12. [LeetCode-234-回文链表](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode234.java)
-12. [LeetCode-236-二叉树的最近公共祖先](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode236.java)
-12. [LeetCode-238-除自身以外数组的乘积](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode238.java)
-12. [LeetCode-239-滑动窗口最大值](/src/main/java/com/roadmap/algorithm/leetcode/Leetcode239.java)
-
-### [剑指offer](https://leetcode-cn.com/problemset/lcof/)
-
-
-### [10大排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
-
-1. [冒泡](article/排序算法.md)
-1. [选择](article/排序算法.md)
-1. [插入](article/排序算法.md)
-1. [希尔](article/排序算法.md)
-1. [归并](article/排序算法.md)
-1. [快速](article/排序算法.md)
-1. [堆](article/排序算法.md)
-1. [计数](article/排序算法.md)
-1. [桶排序](article/排序算法.md)
-1. [基数](article/排序算法.md)
-
-### 数据结构
-
-1. [平衡树]()
-1. [B树]()
-1. [B+树]()
-1. [红黑树]()
-1. [跳表]()
+#### 算法题
+1. [LeetcodeTop100](article/Leetcode.md)
        
 ### 中间件
 
